@@ -1,0 +1,57 @@
+@font-face {
+    font-family: baloo2;
+    src: url(/assets/fonts/Baloo2-Medium.ttf);
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(/assets/fonts/Nunito-VariableFont_wght.ttf);
+}
+
+.Accueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: baloo2;
+}
+
+.Accueil h6 {
+    font-size: 1em;
+    color: rgb(30, 53, 74);
+    padding: 0.1em 0.3em 0.1em 0.3em;
+    background-color: #FFF8EE;
+}
+
+.Accueil h2 {
+    font-size: 2.5em;
+    color:rgb(30, 53, 74);
+    font-family: baloo2 cursive;
+    font-weight: 700;
+}
+
+.Accueil h3 {
+    font-size: 2.8em;
+    color: #FFF8EE;
+    font-family: baloo2 cursive;
+    font-weight: 700;
+}
+
+.Accueil p {
+    font-size: 1em;
+    color: rgb(30, 53, 74);
+}
+
+.Accueil button {
+    background-color: #829C81;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border: 0.1em solid #3f5e52;
+    border-radius: 10%;
+    color: #FFF8EE;
+    font-size: 1em;
+}
+
+body {
+    background-image:url(/assets/images/background\ image.png);
+    background-size: cover;
+    background-position: bottom center;
+}
