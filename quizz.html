@@ -11,15 +11,17 @@
 </head>
 
 <body>
-    <section class="Accueil">
+    <section class="Accueil" id="accueil">
         <h6> Bienvenue au </h6>
         <h2>Quizz</h2>
         <h1>Ghibli</h1>
         <p>Plonger dans l'univers magique des films du studios Ghibli</p>
-        <button>Commencer le quizz</button>
+        <button id="lancement">Commencer le quizz</button>
     </section>
 
-    <section class="Niveaux">
+
+   
+    <section id="niveaux" hidden>
         <h1>Choisissez votre niveau</h1>
         <article class="conteneur">
             <button class="niveau-btn" id="facile">
@@ -39,7 +41,13 @@
                 <img src="">
                 <p>Pour les maîtres de Ghibli</p>
             </button>
+
         </article>
+    </section>
+
+    <section id="facile" hidden>
+        <p>question</p>
+
     </section>
 
 
