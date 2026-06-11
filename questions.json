@@ -1,0 +1,214 @@
+[
+  {
+    "question": "Quel personnage est un grand esprit de la forêt ?",
+    "reponses": [
+      "Haku",
+      "Totoro",
+      "Jiji",
+      "Calcifer"
+    ],
+    "bonne_reponse": 1
+  },
+  {
+    "question": "Quel animal accompagne Kiki dans ses aventures ?",
+    "reponses": [
+      "Un chien",
+      "Un chat noir",
+      "Un lapin",
+      "Un renard"
+    ],
+    "bonne_reponse": 1
+  },
+  {
+    "question": "En quoi Porco Rosso a-t-il été transformé ?",
+    "reponses": [
+      "Un ours",
+      "Un loup",
+      "Un cochon",
+      "Un chat"
+    ],
+    "bonne_reponse": 2
+  },
+  {
+    "question": "Quel moyen de transport Kiki utilise-t-elle le plus souvent ?",
+    "reponses": [
+      "Un bateau",
+      "Un train",
+      "Un balai volant",
+      "Une montgolfière"
+    ],
+    "bonne_reponse": 2
+  },
+  {
+    "question": "Quel personnage peut prendre la forme d'un dragon ?",
+    "reponses": [
+      "Totoro",
+      "Calcifer",
+      "Haku",
+      "Jiji"
+    ],
+    "bonne_reponse": 2
+  },
+  {
+    "question": "Comment s'appelle le démon du feu qui vit dans le château de Hauru ?",
+    "reponses": [
+      "Sans-Visage",
+      "Navet",
+      "Totoro",
+      "Calcifer"
+    ],
+    "bonne_reponse": 3
+  },
+  {
+    "question": "Quel personnage a été élevé par des loups ?",
+    "reponses": [
+      "Sophie",
+      "Chihiro",
+      "San",
+      "Mei"
+    ],
+    "bonne_reponse": 2
+  },
+  {
+    "question": "Au début de son histoire, Ponyo est :",
+    "reponses": [
+      "Une fée",
+      "Un poisson",
+      "Une sorcière",
+      "Une princesse"
+    ],
+    "bonne_reponse": 1
+  },
+  {
+    "question": "Comment s'appelle la petite sœur de Satsuki ?",
+    "reponses": [
+      "Kiki",
+      "Mei",
+      "Arrietty",
+      "Chihiro"
+    ],
+    "bonne_reponse": 1
+  },
+   {
+    "question": "Dans quel environnement vit Totoro ?",
+    "reponses": [
+      "Une ville moderne",
+      "Une forêt",
+      "Un désert",
+      "Une montagne enneigée"
+    ],
+    "bonne_reponse": 1
+  }
+]
+
+
+[
+  {
+    "question": "Quel film est représenté par cette image ?",
+    "image": "scene_totoro_arret_bus.jpg",
+    "reponses": [
+      "Mon Voisin Totoro",
+      "Ponyo sur la falaise",
+      "Arrietty",
+      "Le Voyage de Chihiro"
+    ],
+    "bonne_reponse": 0
+  },
+  {
+    "question": "Quel film est représenté par cette image ?",
+    "image": "scene_train_sur_eau.jpg",
+    "reponses": [
+      "Le Château Ambulant",
+      "Princesse Mononoké",
+      "Le Voyage de Chihiro",
+      "Porco Rosso"
+    ],
+    "bonne_reponse": 2
+  },
+  {
+    "question": "Quel film est représenté par cette image ?",
+    "image": "scene_kiki_balai_ville.jpg",
+    "reponses": [
+      "Kiki la Petite Sorcière",
+      "Ponyo sur la falaise",
+      "Le Vent se Lève",
+      "Arrietty"
+    ],
+    "bonne_reponse": 0
+  },
+  {
+    "question": "Quel film est représenté par cette image ?",
+    "image": "scene_hauru_chateau.jpg",
+    "reponses": [
+      "Le Château dans le Ciel",
+      "Le Château Ambulant",
+      "Princesse Mononoké",
+      "Nausicaä"
+    ],
+    "bonne_reponse": 1
+  },
+  {
+    "question": "Quel film est représenté par cette image ?",
+    "image": "scene_ponyo_mer.jpg",
+    "reponses": [
+      "Le Voyage de Chihiro",
+      "Porco Rosso",
+      "Ponyo sur la falaise",
+      "Souvenirs de Marnie"
+    ],
+    "bonne_reponse": 2
+  }
+]
+
+[
+  {
+    "question": "Qui suis-je ? Je suis un grand esprit de la forêt qui accompagne souvent Satsuki et Mei.",
+    "reponses": [
+      "Haku",
+      "Totoro",
+      "Calcifer",
+      "Jiji"
+    ],
+    "bonne_reponse": 1
+  },
+  {
+    "question": "Qui suis-je ? Je suis une jeune fille qui travaille dans des bains pour sauver ses parents.",
+    "reponses": [
+      "Kiki",
+      "San",
+      "Chihiro",
+      "Sophie"
+    ],
+    "bonne_reponse": 2
+  },
+  {
+    "question": "Qui suis-je ? Je suis une jeune sorcière qui quitte sa famille pour devenir indépendante.",
+    "reponses": [
+      "Kiki",
+      "Ponyo",
+      "Mei",
+      "Arrietty"
+    ],
+    "bonne_reponse": 0
+  },
+  {
+    "question": "Qui suis-je ? Je suis un garçon capable de prendre la forme d'un dragon.",
+    "reponses": [
+      "Haku",
+      "Ashitaka",
+      "Hauru",
+      "Jiji"
+    ],
+    "bonne_reponse": 0
+  },
+  {
+    "question": "Qui suis-je ? Je suis un poisson magique qui rêve de devenir humaine.",
+    "reponses": [
+      "San",
+      "Ponyo",
+      "Sophie",
+      "Arrietty"
+    ],
+    "bonne_reponse": 1
+  }
+]
