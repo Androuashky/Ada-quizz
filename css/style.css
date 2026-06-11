@@ -8,32 +8,53 @@
     src: url(/assets/fonts/Nunito-VariableFont_wght.ttf);
 }
 
+body {
+    margin: 0;
+}
+
 .Accueil {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: baloo2;
+    background-image:url(/assets/images/background\ image.png);
+    background-size: cover;
+    background-position: bottom center;
+    min-height: 70vh;
+    justify-content: center;
+    position: relative;
 }
 
 .Accueil h6 {
     font-size: 1em;
     color: rgb(30, 53, 74);
-    padding: 0.1em 0.3em 0.1em 0.3em;
-    background-color: #FFF8EE;
+    padding: 0.7em 1.8em 0.7em 1.5em;
+    border-radius: 999em;
+    background: #FFF8EE;
+    border: 0.05em solid #FFF8EE;
+    box-shadow: 0 0.15em 0.4em rgba(0,0,0,.08);
+    position: absolute;
+    top : 0.8em;
+    right: 45%;
 }
 
 .Accueil h2 {
-    font-size: 2.5em;
+    font-size: 4em;
     color:rgb(30, 53, 74);
     font-family: baloo2 cursive;
-    font-weight: 700;
+    font-weight: 800;
+    margin-bottom:0;
+    text-shadow: 0.03em 0.03em 0.08em rgba(0,0,0,.15);
 }
 
-.Accueil h3 {
-    font-size: 2.8em;
+.Accueil h1 {
+    font-size: 5em;
     color: #FFF8EE;
     font-family: baloo2 cursive;
-    font-weight: 700;
+    font-weight: 800;
+    margin-top: 1em;
+    margin-bottom: 0;
+    text-shadow: 0.03em 0.03em 0.08em rgba(0,0,0,.15),  0 0 0.05em rgba(255,255,255,.5);
 }
 
 .Accueil p {
@@ -43,15 +64,141 @@
 
 .Accueil button {
     background-color: #829C81;
-    padding: 0.2em 0.5em 0.2em 0.5em;
+    padding: 0.4em 1em 0.4em 1em;
     border: 0.1em solid #3f5e52;
-    border-radius: 10%;
+    border-radius: 999em;
     color: #FFF8EE;
     font-size: 1em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    box-shadow: 0 0.15em 0.4em rgba(0,0,0,.08);
 }
 
-body {
-    background-image:url(/assets/images/background\ image.png);
-    background-size: cover;
-    background-position: bottom center;
+
+/* ========================= */
+/* TABLETTE */
+/* ========================= */
+
+@media screen and (max-width: 1024px) {
+
+    .Accueil {
+        min-height: 65vh;
+        background-size: 140%;
+        background-position: center bottom;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .Accueil h6 {
+        font-size: 0.9em;
+        padding: 0.6em 1.5em;
+    }
+
+    .Accueil h2 {
+        font-size: 3.2em;
+        margin-bottom: -0.15em;
+        line-height: 1;
+    }
+
+    .Accueil h1 {
+        font-size: 4em;
+        margin-top: 0;
+        line-height: 1;
+    }
+
+    .Accueil p {
+        max-width: 80%;
+        margin: 0 auto;
+        font-size: 0.95em;
+    }
+
+    .Accueil button {
+        font-size: 1em;
+        padding: 0.6em 1.6em;
+    }
 }
+
+
+/* ========================= */
+/* GRAND TELEPHONE */
+/* ========================= */
+
+@media screen and (max-width: 768px) {
+
+    .Accueil {
+        min-height: 60vh;
+        background-size: 180%;
+        background-position: center bottom;
+        padding: 1.5em 1em;
+    }
+
+    .Accueil h6 {
+        font-size: 0.85em;
+        padding: 0.6em 1.4em;
+    }
+
+    .Accueil h2 {
+        font-size: 2.5em;
+        margin-bottom: -0.2em;
+        line-height: 1;
+    }
+
+    .Accueil h1 {
+        font-size: 3.2em;
+        line-height: 1;
+        margin-top: 0;
+    }
+
+    .Accueil p {
+        font-size: 0.9em;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .Accueil button {
+        padding: 0.7em 1.8em;
+    }
+}
+
+
+/* ========================= */
+/* PETIT TELEPHONE */
+/* ========================= */
+
+@media screen and (max-width: 480px) {
+
+    .Accueil {
+        min-height: 55vh;
+        background-size: 230%;
+        background-position: center bottom;
+        padding: 1em;
+    }
+
+    .Accueil h6 {
+        font-size: 0.75em;
+        padding: 0.6em 1.2em;
+    }
+
+    .Accueil h2 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+
+    .Accueil h1 {
+        font-size: 2.6em;
+    }
+
+    .Accueil p {
+        font-size: 0.85em;
+        max-width: 95%;
+    }
+
+    .Accueil button {
+        width: 100%;
+        max-width: 15em;
+        font-size: 0.95em;
+    }
+}
+
+
+
